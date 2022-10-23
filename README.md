@@ -4,7 +4,7 @@ A place to learn more about the Craft CMS, and try things.
 
 ## Notes
 
-[Craft CMS 3 Tutorial Series; CraftQuest](?)
+[Craft CMS 3 Tutorial Series; CraftQuest](craft-cms-3-tutorial-series--craftquest.md)
 
 ## Resources
 
