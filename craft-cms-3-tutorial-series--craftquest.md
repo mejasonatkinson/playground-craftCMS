@@ -21,8 +21,44 @@ What We'll Learn
 - [ ] Assign and display Categories
 - [ ] Set up and use the powerful Matrix field
 
-## [Craft CMS Tutorial, ]()
-## [Craft CMS Tutorial, ]()
+## [Craft CMS Tutorial, Part 3: What We're Building with Craft CMS](https://www.youtube.com/watch?v=a1WR-ZvRoOs&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=3)
+
+Project: Crafty Coffee
+
+## [Craft CMS Tutorial, Part 4: Server Requirements for Craft CMS](https://www.youtube.com/watch?v=GKeyXg3nhjk&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=4)
+
+**Requirements**
+
+- PHP 7.0 or later
+- MySQL or later with InnoDB
+- PostgreSQL 9.5+
+- A web server (I use Apache)
+- At least 256 MB memory allocated to PHP
+
+**PHP Requirements**
+
+- PCRE
+- PDO
+- GD or ImageMagick
+- OpenSSL
+- MultibyteString
+- JSON
+- cURL
+- Reflection
+- SPL
+- Zip
+
+**Database Requirements**
+
+- MySQL and PostgreSQL
+- Database credentials (including database name)
+- Database user should have read/write permissions
+
+**Permissions**
+
+- craft/config
+- craft/storage
+
 ## [Craft CMS Tutorial, ]()
 ## [Craft CMS Tutorial, ]()
 ## [Craft CMS Tutorial, ]()
