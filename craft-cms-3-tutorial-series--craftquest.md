@@ -61,19 +61,22 @@ Project: Crafty Coffee
 
 ## [Craft CMS Tutorial, Part 5: Craft CMS Licensing Options](https://www.youtube.com/watch?v=a7QqZtS6bic&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=5)
 
-[Craft CMS Prixing](https://craftcms.com/pricing)
+[Craft CMS Pricing](https://craftcms.com/pricing)
 
-Solo - Free, Pro (Free Local), Enterprise (on request)
+- Solo - Free
+- Pro (Free Local)
+- Enterprise (on request)
 
 ## [Craft CMS Tutorial, Part 6: What is Composer? (Craft CMS)](https://www.youtube.com/watch?v=TNojJL_rAxY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=6)
 
-- Dependency manager that handles all of the software needed to run an app or project
+- A Dependency manager that handles all of the software needed to run an app or project
 - You tell Composer what your project needs to run
 - Composer will install those dependencies for you
 - Composer handles dependencies for a project, it does not install packages globally
-- Helps you keep your dependencies separate from your project code
-- Define your project dependencies in a composer.json file
-- Use a require key, which takes an object with your dependencies
+- It helps you to keep your dependencies separate from your project code
+- It defines your project dependencies in a composer.json file
+
+...
 
 ## [Craft CMS Tutorial, Part 7: Installing Composer](https://www.youtube.com/watch?v=77ZSHSIa_wA&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=7)
 
@@ -83,6 +86,6 @@ Follow the instructions on [getcomposer.org](https://getcomposer.org/) to comple
 
 ## [Craft CMS Tutorial, Part 8: Installing Craft with Composer](https://www.youtube.com/watch?v=iC9DN0c8NQc&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=8)
 
-**Install or enable PHP's intl extension**
+Could not proceed locally, ran into a issue with **PHP's intl extension** 
 
-I can't go any furthur with this untill I can get this to work....
+Due to this I will not be going any further with this tutorial.
