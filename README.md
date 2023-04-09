@@ -15,9 +15,9 @@ To start this repo, I have some Questions...
 
 - [ ] [Documentation; craftcms](notes/.md)
 - [ ] [Knowledge Base; craftcms](notes/.md)
-- [ ] [Plugins; craftcms](notes/.md)
+- [ ] [Plugins; craftcms](notes/plugins--craftcms.md)
 
-- [ ] [In the Field; craftcms](notes/.md)
+- [ ] [In the Field; craftcms](notes/in-the-field--craftcms.md)
 - [ ] [Accessibility; craftcms](notes/.md)
 
 - [ ] [Slack; craftcms](notes/.md)
@@ -49,9 +49,9 @@ To start this repo, I have some Questions...
 - [ ] [Import board game data into Craft CMS; EaglePeak Consulting](notes/.md)
 - [ ] [Style Board Game Cards with Tailwind CSS; EaglePeak Consulting](notes/.md)
 
-- [ ] [craft cms; webdna](notes/.md)
+- [ ] [craft cms; webdna](notes/craft-cms--webdna.md)
 
-- [ ] [ny studio 107](notes/.md)
+- [ ] [ny studio 107](notes/ny-studio-107.md)
 
 ## Resources
 
