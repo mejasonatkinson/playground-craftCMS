@@ -11,43 +11,38 @@ To start this repo, I have some Questions...
 
 ## Notes
 
-- [ ] [craftcms](notes/.md)
+- [ ] [craftcms](notes/craftcms.md)
 
-- [ ] [Documentation; craftcms](notes/.md)
-- [ ] [Knowledge Base; craftcms](notes/.md)
+- [ ] [Documentation; craftcms](notes/documentation--craftcms.md)
+- [ ] [Knowledge Base; craftcms](notes/knowledge-base--craftcms.md)
 - [ ] [Plugins; craftcms](notes/plugins--craftcms.md)
 
 - [ ] [In the Field; craftcms](notes/in-the-field--craftcms.md)
-- [ ] [Accessibility; craftcms](notes/.md)
+- [ ] [Accessibility; craftcms](notes/accessibility--craftcms.md)
 
-- [ ] [Slack; craftcms](notes/.md)
-- [ ] [stackexchange; craftcms](notes/.md)
+- [ ] [Craft CMS courses; tutsplus](notes/craftcms-courses--tutsplus.md)
 
-- [ ] [Craft CMS courses; tutsplus](notes/.md)
+- [ ] [CraftQuest](notes/craftquest.md)
 
-- [ ] [Staight Up Craft](notes/.md)
+- [ ] [Our Lessons; CraftQuest](notes/our-leassons--craftquest.md)
 
-- [ ] [CraftQuest](notes/.md)
+- [ ] [Playlists; CraftQuest](notes/playlist--craftquest.md)
 
-- [ ] [Our Lessons; CraftQuest](notes/.md)
+- [-] [Craft CMS 3 Tutorial Series; CraftQuest](notes/craft-cms-3-tutorial-series--craftquest.md) *
 
-- [ ] [Playlists; CraftQuest](notes/.md)
+- [ ] [Craft 4; CraftQuest](notes/craft-4--craftquest.md)
 
-- [ ] [Craft CMS 3 Tutorial Series; CraftQuest](notes/craft-cms-3-tutorial-series--craftquest.md)
+- [ ] [Playlists; Luke Peters](notes/playlists--luke-peter.md)
+- [ ] [Craft CMS Tutorial - Build a Full Website; Luke Peters](notes/craftcms-tutorial-build-a-full-website--luke-peter.md)
+- [ ] [Craft CMS 3 Tutorial Series; Luke Peters](notes/craftcms-3-tutorial-series--luke-peter.md)
 
-- [ ] [Craft 4; CraftQuest](notes/.md)
+- [ ] [Playlist; Neftali Loria](notes/playlist--neftali-loria.md)
+- [ ] [Craft Cms Masterclass by KreativePro™; Neftali Loria](notes/craftcms-masterclass-by-kreativepro--neftali-loria.md)
 
-- [ ] [Playlists; Luke Peters](notes/.md)
-- [ ] [Craft CMS Tutorial - Build a Full Website; Luke Peters](notes/.md)
-- [ ] [Craft CMS 3 Tutorial Series; Luke Peters](notes/.md)
-
-- [ ] [Playlist; Neftali Loria](notes/.md)
-- [ ] [Craft Cms Masterclass by KreativePro™; Neftali Loria](notes/.md)
-
-- [ ] [Craft CMS 3 Local Development with Lando Docker; EaglePeak Consulting](notes/.md)
-- [ ] [Create a Board Games section in Craft CMS; EaglePeak Consulting](notes/.md)
-- [ ] [Import board game data into Craft CMS; EaglePeak Consulting](notes/.md)
-- [ ] [Style Board Game Cards with Tailwind CSS; EaglePeak Consulting](notes/.md)
+- [ ] [Craft CMS 3 Local Development with Lando Docker; EaglePeak Consulting](notes/craft-cms-3-local-development-with-lando-docker--eaglepeak-consulting.md)
+- [ ] [Create a Board Games section in Craft CMS; EaglePeak Consulting](notes/create-a-board-games-section-in-craftcms--eaglepeak-consulting.md)
+- [ ] [Import board game data into Craft CMS; EaglePeak Consulting](notes/import-board-game-data-into-craftcms--eaglepeak-consulting.md)
+- [ ] [Style Board Game Cards with Tailwind CSS; EaglePeak Consulting](notes/style-board-game-cards-with-tailwind-css--eaglepeak-consulting.md)
 
 - [ ] [craft cms; webdna](notes/craft-cms--webdna.md)
 
