@@ -91,3 +91,20 @@ Could not proceed locally, ran into a issue with **PHP's intl extension**
 Due to this I will not be going any further with this tutorial.
 
 ...
+
+
+## [Craft CMS Tutorial, Part 9: Running the Craft CMS Setup Wizard from the Browser](https://www.youtube.com/watch?v=sq-q9WENKog&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=10)
+
+## [Craft CMS Tutorial, Part 10: What is env? (Craft CMS)](https://www.youtube.com/watch?v=VliMbA8SJq8&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=11)
+
+## [Craft CMS Tutorial, Part 11: Touring the Craft CMS Control Panel](https://www.youtube.com/watch?v=6qvu0SkDq_E&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=12)
+
+## [Craft CMS Tutorial, Part 12: Touring the Craft CMS Files and Directories](https://www.youtube.com/watch?v=4oQaddQJjVY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=14)
+
+## []()
+
+## []()
+
+## []()
+
+## []()
