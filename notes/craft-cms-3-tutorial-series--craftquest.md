@@ -101,10 +101,35 @@ Due to this I will not be going any further with this tutorial.
 
 ## [Craft CMS Tutorial, Part 12: Touring the Craft CMS Files and Directories](https://www.youtube.com/watch?v=4oQaddQJjVY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=14)
 
-## []()
+## [Craft CMS Tutorial, Part 13: Securing Craft CMS with cpTrigger](https://www.youtube.com/watch?v=EcNkS9yOkjY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=14)
+
+## [Craft CMS Tutorial, Part 14: Intro to Craft CMS Plugins](https://www.youtube.com/watch?v=hTONY9_OHY0&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=15)
+
+## [Craft CMS Tutorial, Part 15: What is devMode?](https://www.youtube.com/watch?v=PDU-7NxSXDo&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=16)
+
+## [Craft CMS Tutorial, Part 16: Debugging with the Yii Debug Toolbar](https://www.youtube.com/watch?v=2lMSaN5wMaU&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=17)
+
+## [Craft CMS Tutorial, Part 17: The Pieces of Craft](https://www.youtube.com/watch?v=CL26aqEldVY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=18)
+
+## [Craft CMS Tutorial, Part 18: Moving the Assets to the Project](https://www.youtube.com/watch?v=2IquITmeG7Y&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=19)
+
+## [Craft CMS Tutorial, Part 19: Defining Craft Sections and Fieldss](https://www.youtube.com/watch?v=9z7lb_P-Sb4&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=20)
+
+## [Craft Tutorial Series, Part 20: Creating Sections and Fields](https://www.youtube.com/watch?v=HsMHG84znkI&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=21)
+
+## [Craft CMS Tutorial, 21: Creating Publish Layouts](https://www.youtube.com/watch?v=Nfaen5uMzKI&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=22)
+
+## [Craft CMS Tutorial, Part 22: Creating Single Sections (Homepage)](https://www.youtube.com/watch?v=wkUNxXyOFRo&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=23)
+
+## [Craft CMS Tutorial, Part 23: Creating Asset Volumes and Transforms](https://www.youtube.com/watch?v=2ijzUn-uCho&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=24)
+
+## [Craft CMS Tutorial, Part 24: Creating Nested Pages with Structure Sections](https://www.youtube.com/watch?v=neGLf15_dnk&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=25)
+
+## [Craft CMS Tutorial, Part 25: On Your Own Review](https://www.youtube.com/watch?v=-5aegC0uD78&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=26)
 
 ## []()
 
 ## []()
 
 ## []()
+
