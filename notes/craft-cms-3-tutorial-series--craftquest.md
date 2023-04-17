@@ -95,6 +95,22 @@ Due to this I will not be going any further with this tutorial.
 
 ## [Craft CMS Tutorial, Part 9: Running the Craft CMS Setup Wizard from the Browser](https://www.youtube.com/watch?v=sq-q9WENKog&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=10)
 
+Need to access it locally, first via:
+- mamp...
+- xamp,,,
+- valet...
+- etc
+
+`ls -al`
+
+Looking for .env file...
+
+Check to make sure this is complete...
+
+Go to localhost... and you can install craft... (this can also be done in the commandline)
+
+Upgrade Craft CMS... Try Pro... To get access to all features. This is fine for local development but when deployed you will need to buy a license.
+
 ## [Craft CMS Tutorial, Part 10: What is env? (Craft CMS)](https://www.youtube.com/watch?v=VliMbA8SJq8&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=11)
 
 ## [Craft CMS Tutorial, Part 11: Touring the Craft CMS Control Panel](https://www.youtube.com/watch?v=6qvu0SkDq_E&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=12)
