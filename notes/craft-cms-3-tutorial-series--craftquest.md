@@ -113,6 +113,26 @@ Upgrade Craft CMS... Try Pro... To get access to all features. This is fine for 
 
 ## [Craft CMS Tutorial, Part 10: What is env? (Craft CMS)](https://www.youtube.com/watch?v=VliMbA8SJq8&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=11)
 
+New to craft 3.
+
+- Where you store environment-specific settings
+- E.g. Database connection information
+- Uses PHPDotEnv (based on Ruby's dotenv)
+
+- You have a .env file in your project root
+- Using keys and values, you set environment variables.
+- Anything you set is accessible globally via the `$_ENV` global, which you can retrieve via `getenv('key')`.
+- Use your .gitignore file to ignore this file so it is not tracked in your repository.
+- PHPDotEnv is a dependency for Craft CMS
+
+`vim .env` to see how all the values are stored.
+
+`cd config/`
+
+`ls`
+
+`vim db.php` If you look at the return you will see how these env values are retrieved using `getenv('key')`.
+
 ## [Craft CMS Tutorial, Part 11: Touring the Craft CMS Control Panel](https://www.youtube.com/watch?v=6qvu0SkDq_E&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=12)
 
 ## [Craft CMS Tutorial, Part 12: Touring the Craft CMS Files and Directories](https://www.youtube.com/watch?v=4oQaddQJjVY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=14)
