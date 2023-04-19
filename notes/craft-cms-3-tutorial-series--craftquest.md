@@ -135,6 +135,18 @@ New to craft 3.
 
 ## [Craft CMS Tutorial, Part 11: Touring the Craft CMS Control Panel](https://www.youtube.com/watch?v=6qvu0SkDq_E&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=12)
 
+`/admin`, Login...
+
+- Dashboard
+    - New widgets (if wanted..), Also ability to create new widgets, if your coding level allows
+- Users
+- GraphQL (only for pro)
+- Utilities
+    - For application info...
+    - Database backup...
+- Settings (if admin user) <------ where most of the content in this course focuses on.
+- Plugin Store
+
 ## [Craft CMS Tutorial, Part 12: Touring the Craft CMS Files and Directories](https://www.youtube.com/watch?v=4oQaddQJjVY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=14)
 
 ## [Craft CMS Tutorial, Part 13: Securing Craft CMS with cpTrigger](https://www.youtube.com/watch?v=EcNkS9yOkjY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=14)
