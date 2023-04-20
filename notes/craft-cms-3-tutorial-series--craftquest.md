@@ -149,6 +149,26 @@ New to craft 3.
 
 ## [Craft CMS Tutorial, Part 12: Touring the Craft CMS Files and Directories](https://www.youtube.com/watch?v=4oQaddQJjVY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=14)
 
+composer.json (dependences)
+composer.lock 
+config/ (config files)
+    app.php (pulls from .env)
+    db.php
+    general.php (set/pulled from .env)
+    license.key (license key for craft)
+    redactor/ (wysiwyg editor, config)
+    routes.php (for rendering, templates)
+craft.exec (updates...)
+craft.bat (?)
+migrations/ (for migrations)
+modules/ (custom modules)
+storage/ (for backups/logs/runtime cache)
+templates/ (for templates... most used)
+vendor/ (where composer, stores the packages needed)
+web/ (public)
+
+In the command line: `ls -al`
+
 ## [Craft CMS Tutorial, Part 13: Securing Craft CMS with cpTrigger](https://www.youtube.com/watch?v=EcNkS9yOkjY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=14)
 
 ## [Craft CMS Tutorial, Part 14: Intro to Craft CMS Plugins](https://www.youtube.com/watch?v=hTONY9_OHY0&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=15)
