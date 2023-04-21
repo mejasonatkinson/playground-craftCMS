@@ -171,7 +171,35 @@ In the command line: `ls -al`
 
 ## [Craft CMS Tutorial, Part 13: Securing Craft CMS with cpTrigger](https://www.youtube.com/watch?v=EcNkS9yOkjY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=14)
 
+config/general.php
+
+```
+// control Panel trigger word
+'cpTrigger' => 'admin',
+```
+
+After changing this the admin, url will give a 404 error.
+
+If you got to: `website-url.domain/new-cpTrigger` it will bring up the admin area.
+
 ## [Craft CMS Tutorial, Part 14: Intro to Craft CMS Plugins](https://www.youtube.com/watch?v=hTONY9_OHY0&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=15)
+
+Admin > Plugin Store
+
+Allows you to extend what the Craft CMS can do. IF the default functionality doesn't meet your needs.
+
+Install Plugins, from command line
+
+`composer require craftcms/feed-me`
+
+`./craft help`
+
+`./craft install/plugin feed-me`
+
+Dpendencies, is technical debt 
+
+... they have videos on feed-me
+... they have videos on how to create plugins (not covered in this course)
 
 ## [Craft CMS Tutorial, Part 15: What is devMode?](https://www.youtube.com/watch?v=PDU-7NxSXDo&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=16)
 
