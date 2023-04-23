@@ -203,6 +203,15 @@ Dpendencies, is technical debt
 
 ## [Craft CMS Tutorial, Part 15: What is devMode?](https://www.youtube.com/watch?v=PDU-7NxSXDo&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=16)
 
+Bottom-Left of Admin, indicator of Dev Mode. Full Stack Error Messages. On frontend AND in storage/logs/web.log
+
+Also Dump with Twig? And Cache disabled.
+
+config/general.php
+`'devMode' => true,`
+.env (.env not shared...)
+`ENVIRONMENT="dev"`
+
 ## [Craft CMS Tutorial, Part 16: Debugging with the Yii Debug Toolbar](https://www.youtube.com/watch?v=2lMSaN5wMaU&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=17)
 
 ## [Craft CMS Tutorial, Part 17: The Pieces of Craft](https://www.youtube.com/watch?v=CL26aqEldVY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=18)
