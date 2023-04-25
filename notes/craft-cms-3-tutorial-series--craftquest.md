@@ -211,3 +211,14 @@ config/general.php
 `'devMode' => true,`
 .env (.env not shared...)
 `ENVIRONMENT="dev"`
+
+## [Craft CMS Tutorial, Part 16: Debugging with the Yii Debug Toolbar](https://www.youtube.com/watch?v=2lMSaN5wMaU&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=17)
+
+Craft CMS, is built on Yii.
+
+Users/Prefences/Debug Toolbar
+
+Bottom-Right, on Frontend/Backend
+
+... video doesn't match content ...
+
