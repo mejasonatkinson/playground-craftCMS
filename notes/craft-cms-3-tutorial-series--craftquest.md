@@ -222,3 +222,23 @@ Bottom-Right, on Frontend/Backend
 
 ... video doesn't match content ...
 
+## [Craft CMS Tutorial, Part 17: The Pieces of Craft](https://www.youtube.com/watch?v=CL26aqEldVY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=18)
+
+- Sections - how we organize content or data in craft
+    -   Types:
+        - Channel 
+            - collection of related entries
+            - keep adding to over time
+        - Structure
+            - similar to channels
+            - hierarchy/nesting, which is reflected in the URLs
+                - /about
+                - /about/offices
+                - /about/offices/austin
+        - Single
+            - one-off entry
+            - unique content requirements that are not shared with any other entries on the site.
+- Fields & Field Types - define content types we store as entries
+- Entries - how the content is stored in a Section
+- Templates - used to display content to the end user (typically in the web browser via Twig)
+- More....
