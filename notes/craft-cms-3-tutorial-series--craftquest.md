@@ -242,3 +242,11 @@ Bottom-Right, on Frontend/Backend
 - Entries - how the content is stored in a Section
 - Templates - used to display content to the end user (typically in the web browser via Twig)
 - More....
+
+## [Craft CMS Tutorial, Part 18: Moving the Assets to the Project](https://www.youtube.com/watch?v=2IquITmeG7Y&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=19)
+
+Access the template code here: https://gitlab.com/craft-cms-training/crafty-coffee-templates
+
+This is just the static template code. NOT implimented into Craft CMS...
+
+bower_components/, images/, js/, stylesheets. copy over too the web/ directory in the craft project...
