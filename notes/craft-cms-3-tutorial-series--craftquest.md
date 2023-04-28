@@ -250,3 +250,24 @@ Access the template code here: https://gitlab.com/craft-cms-training/crafty-coff
 This is just the static template code. NOT implimented into Craft CMS...
 
 bower_components/, images/, js/, stylesheets. copy over too the web/ directory in the craft project...
+
+## [Craft CMS Tutorial, Part 19: Defining Craft Sections and Fieldss](https://www.youtube.com/watch?v=9z7lb_P-Sb4&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=20)
+
+Content Chunks...
+    - Drinks (channel)
+        - Name
+        - Category
+        - BackgroundImage
+        - Content/Images
+        - Recipe Link
+    - News (channel)
+        - Name
+        - Author
+        - Content
+    - Recipe (?)
+    - About (?)
+        - Name/Title
+        - Subtitle
+        - Content
+
+
