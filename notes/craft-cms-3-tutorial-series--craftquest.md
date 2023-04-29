@@ -270,4 +270,29 @@ Content Chunks...
         - Subtitle
         - Content
 
+## [Craft Tutorial Series, Part 20: Creating Sections and Fields](https://www.youtube.com/watch?v=HsMHG84znkI&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=21)
 
+Admin/Settings/Sections/New/
+
+name: 'name'
+section type: 'channel'
+Template: drinks/_entry.twig // .twig not needed.
+
+Save
+
+templates/drinks/_entry.twig
+
+Entry Types...
+
+Admin/Settings/Fields/New/
+
+Fields can be Grouped into Groups
+
+name: 'intro'
+Handle: 'intro'
+
+Field Type: 'Plain Text'
+
+Redactor, install plugin...
+
+...
