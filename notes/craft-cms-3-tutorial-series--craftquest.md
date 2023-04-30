@@ -296,3 +296,71 @@ Field Type: 'Plain Text'
 Redactor, install plugin...
 
 ...
+
+
+
+
+## [Craft CMS Tutorial, 21: Creating Publish Layouts](https://www.youtube.com/watch?v=Nfaen5uMzKI&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=22)
+
+Admin/Settings/Sections/'section'/entry-type
+
+Admin/Entries
+
+## [Craft CMS Tutorial, Part 22: Creating Single Sections (Homepage)](https://www.youtube.com/watch?v=wkUNxXyOFRo&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=23)
+
+Admin/Settings/Sections/New
+
+Name: Homepage
+
+Section Type: Single
+
+Template: index
+
+Save
+
+Admin/Entries/Singles
+
+## [Craft CMS Tutorial, Part 23: Creating Asset Volumes and Transforms](https://www.youtube.com/watch?v=2ijzUn-uCho&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=24)
+
+Images Field...
+
+Assets
+
+- Manage files using the Assets manager
+- Like a file manager
+- Only stores references to the files on disk
+- Easily access them in templates
+
+Asset Volumes
+
+- Local - stored right on disk of server (For course)
+- Remote - stored in a supported third party cloud service (AWS S3, Google Cloud, Rackspace Cloud, Digital Ocean Spaces... etc) plugins required
+
+Admin/Settings/Assets/
+
+Volumes, Image Transforms, Settings...
+
+Volume/New
+
+Name:
+Public urls...
+Base URL:
+@web/images/uploads/drinks
+Volume Type:
+Local folder
+File System Path:
+@webroot/images/uploads/drinks
+
+Save
+
+Try upload on Admin/Assets
+
+Admin/Settings/Fields/New/
+
+name: 'image'
+Handle: 'image'
+
+Field Type: 'Assets'
+
+Generate Thumbs for images, using Image Transforms. (Admin/Settings/Assets/)
+
