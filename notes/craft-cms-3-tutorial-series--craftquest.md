@@ -364,3 +364,24 @@ Field Type: 'Assets'
 
 Generate Thumbs for images, using Image Transforms. (Admin/Settings/Assets/)
 
+## [Craft CMS Tutorial, Part 24: Creating Nested Pages with Structure Sections](https://www.youtube.com/watch?v=neGLf15_dnk&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=25)
+
+For about pages...
+
+Admin/Sections/New/
+
+name: 
+section type: structure
+
+Entry URL:
+{parent.uri}/{slug}
+
+Template: about/_entry.twig // .twig not needed.
+
+Save
+
+templates/about/_entry.twig
+
+`<h1>{{ entry.title }}</h1>`
+
+...
