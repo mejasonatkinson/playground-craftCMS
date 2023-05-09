@@ -385,3 +385,436 @@ templates/about/_entry.twig
 `<h1>{{ entry.title }}</h1>`
 
 ...
+
+
+## [Craft CMS Tutorial, Part 25: On Your Own Review](https://www.youtube.com/watch?v=-5aegC0uD78&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=26)
+
+Required fields*
+
+...
+
+## [Craft CMS Tutorial, Part 26: Introduction to Coding Templates with Twig in Craft CMS](https://www.youtube.com/watch?v=yklu5rR67JQ&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=26)
+
+Building Craft Templates
+- Brief introduction to Twig
+- Basics of Twig and Craft
+
+- Implement homepage
+- Implement Drinks detail template
+- Implement News detail template
+- Implement Structure template for About section
+
+## [Craft CMS Tutorial, Part 27: Introduction to Twig](https://www.youtube.com/watch?v=PIPLraLG4rw&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=27)
+
+Twig, is not part of 
+Suggest, taking Twig Craft Course...
+
+This course only covers the basics...
+
+
+for loop
+
+```
+{% for drink in drinks %}
+    {{ drink.title }}
+{% endfor %}
+```
+
+## [Craft CMS Tutorial, Part 28: Learn Layouts and Blocks in Twig](https://www.youtube.com/watch?v=PPBFAqj5L3U&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=28)
+
+index.twig
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+    (page content)
+{% endblock %}
+```
+
+_layouts/main.twig (header)(footer)
+
+```
+(header)
+    {% block main %}
+
+    {% endblock %}
+(footer)
+```
+
+## [Craft CMS Tutorial, Part 29: Coding Entry Listings Pages](https://www.youtube.com/watch?v=Sb8Ho0mGrMo&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=29)
+
+index.twig
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+    (page content)
+    {{ entry.subtitle }} // from field name(subtitle)
+
+    {% for drink in craft.entries.section('drinks').limit(5).all() %}
+        {{ drink.url }}
+        {{ drink.drinkimage.one().url() }}
+        {{ drink.title }}
+    {% endfor %}
+
+    {% for item in craft.entries.section('news').limit(10).all() %}
+        {{ item.url }}
+        {{ item.excerpt }}
+    {% endfor %}
+
+{% endblock %}
+```
+
+_layouts/main.twig (header)(footer)
+
+```
+(header)
+    {% block main %}
+
+    {% endblock %}
+(footer)
+```
+
+Has video on seeding, fake content into a project....
+
+## [Craft CMS Tutorial, Part 30: Coding an Entry Template](https://www.youtube.com/watch?v=B4LlkLkgovc&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=30)
+
+drinks/_entry.twig
+
+defined in the settings.
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+    (content)
+    {{ entry.title }}
+    {{ entry.title }}
+    {{ entry.introduction }}
+    {{ entry.pageCopy }}
+{% endblock %}
+```
+
+## [Craft CMS Tutorial, Part 31: Reviewing Your Twig Template Work](https://www.youtube.com/watch?v=KOp8fXU3XBE&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=31)
+
+news/_entry.twig
+
+defined in the settings.
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+    (content)
+    {{ entry.excerpt }}
+    {{ entry.title }}
+    {{ entry.author }}
+    {{ entry.newsBody }}
+{% endblock %}
+```
+
+## [Craft CMS Tutorial, Part 32: On Your Own - Creating a Section Listing Page](https://www.youtube.com/watch?v=7xAdPmyIJX8&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=32)
+
+...
+
+## [Craft CMS Tutorial, Part 33: Reviewing Your Work Coding Section Listing Templates](https://www.youtube.com/watch?v=RvgrDInUIRA&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=33)
+
+drinks/index.twig
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+
+(content)
+
+    {% for drink in craft.entries.section('drinks').limit(25).all() %}
+        {{ drink.url }} {{ drink.title }}
+    {% endfor %}
+
+{% endblock %}
+```
+
+news/index.twig
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+
+(content)
+
+    {% for item in craft.entries.section('news').limit(25).all() %}
+        {{ item.url }} {{ item.title }}
+        {{ item.author }} {{ item.postDate | date('M d, Y') }}
+    {% endfor %}
+
+{% endblock %}
+```
+
+## [Craft CMS Tutorial, Part 34: Coding a Structure Section Entry Template](https://www.youtube.com/watch?v=p2OsxEryODU&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=34)
+
+
+about/_entry.twig
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+
+(content)
+
+{{ entry.title }}
+{{ entry.title }}
+{{ entry.subtitle }}
+{{ entry.pageIntro }}
+{{ entry.pageCopy }}
+
+{% endblock %}
+```
+
+## [Craft CMS Tutorial, Part 35: Creating a Matrix Field in Craft](https://www.youtube.com/watch?v=PwmrGTwVkQA&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=35)
+
+Matrix Field
+
+- Create multiple blocks of content in a single field
+- Each block can contain multiple fields and field types
+- Create multiple instances of the same block
+- Re-order Matrix blocks to customize the content flow
+
+Matrix field Blocks
+
+- Recipe Image: Image field, Image caption (plain text)
+- Reciple Tip: Plain text field
+- Recipe Copy: Rich text field
+- Reciple Steps: Steps title (plain text), Steps (table)
+
+Admin/Settings/Sections/New/
+
+Recipes
+Channel
+
+recipes/_entry.twig
+
+Admin/Settings/Fields/New/
+
+Field type: Matrix
+
+...
+
+## [Craft CMS Tutorial, Part 36: Coding a Matrix Field in Craft](https://www.youtube.com/watch?v=uRWfYigyXTg&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=36)
+
+recipes/_entry.twig
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+
+        (content)
+
+        {{ entry.title }}
+        {{ entry.title }}
+
+
+        {% for block in entry.recipeContents %}
+
+        <!-- {% if block.type == 'recipeImage' %} -->
+
+            {% switch block.type %}
+                {% case 'recipeImage' %}
+
+                    {% set image = block.image.one() %}
+
+                    {# recipeImage Block #}
+
+                    {{ image.url }}
+
+                    {% if block.imageCaption %}
+
+                        {{ block.imageCaption}}
+
+                    {% endif %}
+
+                    {# End recipeImage Block #}
+
+                {% case 'recipeCopy' %}
+
+                    {# recipeCopy Block #}
+
+                        {{ block.bodyContent }}
+
+                    {# End recipeCopy Block #}
+
+                {% case 'recipeIngredients' %}
+
+                    {# recipeIngredients Block #}
+
+                        {% for row in block.ingredients %}
+                        
+                            {{ row.amount }}
+                            {{ row.ingredient }}
+
+                        {% endfor %}
+
+                    {# End recipeIngredients Block #}
+
+                {% case 'recipeSteps' %}
+
+                    {{ block.stepsTitle }}
+
+                    {# recipeSteps Block #}
+
+                        {% for step in block.stepsContent %}
+                        
+                            {{ step.stepInstructions }}
+
+                        {% endfor %}
+
+                    {# End recipeSteps Block #}
+
+
+                {% case 'recipeTip' %}
+
+                    {# recipeTip Block #}
+
+                        {{ block.tipContent }}
+
+                    {# End recipeTip Block #}
+
+            {% endswitch %}
+
+        <!-- {% endif %} -->
+
+        {% endfor %}
+
+    {% endif %}
+
+{% endblock %}
+```
+
+
+## [Craft CMS Tutorial, Part 37: Setting Up Categories in Craft](https://www.youtube.com/watch?v=qzjhXrmA9gc&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=37)
+
+Admin/Settings/Categories/
+
+Category Groups
+
+/New
+
+styles/_entry.twig
+
+Field Layouts?
+
+Create Fields...
+
+name: Style Description
+Type: Plain Text
+
+Categories/New/
+
+...
+
+Create Fields... for sections.
+
+name: Drink Style
+Type: Catagories
+Source: Drink Styles
+
+Add to Recipes
+
+
+## [Craft CMS Tutorial, Part 38: Coding a Category Listing](https://www.youtube.com/watch?v=5ckzvffXkOY&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=38)
+
+styles/_entry.twig
+
+Listing of all the entires of a category
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+
+    (content)
+
+    {{ category.title }}
+
+    {{ category.title }}
+
+    {{ category.styleDescription }}
+
+    {# Drinks Entries #}
+        {% for drink in craft.entries.section('drinks').relatedTo(category).all() %}
+            {{ drink.url }} {{ drink.title }}
+            {{ drink.entryDate | date('M Y') }}
+        {% endfor %}
+    {# End Drinks Entries #}
+
+    {# Recipes Entries #}
+        {% for recipe in craft.entries.section('recipes').relatedTo(category).all() %}
+            {{ recipe.url }} {{ recipe.title }}
+            {{ recipe.entryDate | date('M Y') }}
+        {% endfor %}
+    {# End Recipes Entries #}
+
+{% endblock %}
+```
+
+## [Craft CMS Tutorial, Part 39: Coding a Category Index](https://www.youtube.com/watch?v=NssfLDlhM8w&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=39)
+
+drinks/index.twig
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+
+(content)
+
+    {% for drink in craft.entries.section('drinks').limit(25).all() %}
+        
+        {{ drink.url }} {{ drink.title }}
+
+        {% set style = drink.drinkStyle.one() %}
+
+        {{ style.url }} {{ style.title}}
+
+    {% endfor %}
+
+{% endblock %}
+```
+
+styles/index.twig
+
+```
+{% extends "_layouts/main" %}
+{% block main %}
+
+(content)
+
+    {% set styles = craft.categories.group('drinkStyles').all() %}
+
+    {% for style in styles %}
+        {{ style.url }} {{ style.title }}
+        {{ style.styleDescription }}
+    {% endfor %}
+
+{% endblock %}
+
+```
+
+## [Craft CMS Tutorial, Part 40: Relating Entries with the Entries Field](https://www.youtube.com/watch?v=rnl23P_xP0I&list=PLCy7dPypkr2rOlj9Ps5HbzYeJecL48yg-&index=40)
+
+Settings/Fields/
+
+Drinks/New
+
+name: Drinks Recipe
+type: Entries
+
+Source: Recipes
+
+...
+
+drinks/_entry.twig
+
+```
+
+{% set drinkRecipe = entry.drinkRecipe.one() %}
+{{ drinkRecipe.url}} {{ entry.title }}
+
+```
+
+... duplicates???
